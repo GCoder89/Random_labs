@@ -26,7 +26,7 @@
 <!-- Custom Styles -->
 <link rel="stylesheet" href="css/styles.css" />
 <!-- Font Awesome -->
-<link href="css/font-awesome.min.css" rel="stylesheet">	
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +38,14 @@
     <nav class="navbar navbar-inverse" role="navigation">
 	<!-- Navigation Toggle Button -->
       <div class="navbar-header"> 
+	<button type="button" id="nav-toggle" class="navbar-toggle" aria-label="Toggle navigation">
+		
+		<!-- //old line change to old if functionality stops//
+		
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> 
+		-->
+		
+		
 		<!-- Screen Reader Only Text -->
 		<span class="sr-only">Toggle navigation</span> 
 		<!-- Icon bars for toggle button -->
@@ -77,7 +84,7 @@
 <!-- Banner Container -->
   <div class="banner-container"> 
 	  <!-- Banner Background Image -->
-	<img src="images/banner-bg.jpg" alt="banner" />
+	<img src="images/banner-bg.jpg" alt="Braground banner image" />
 	  <!-- Banner Content Container -->
     <div class="container banner-content"> 
 	    <!-- Row Container -->
@@ -104,29 +111,49 @@
             </div> 
   </div>
 </section>
+<!-- Introduction text section -->
 <section id="introText">
+<!-- Container Element -->
   <div class="container">
+<!-- Introduction text Container -->
     <div>
-      <h1>I create beautiful responsive websites, Yes I am a UX geek</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum erat et neque tincidunt volutpat. Cras eget augue id dui varius pretium. Cras posuere dolor risus. Pellentesque elementum ultricies quam, sit amet rhoncus nisl viverra in. Cras imperdiet nisi a euismod molestie. Ut a metus arcu. Pellentesque feugiat dictum erat. Nulla vehicula condimentum purus, quis imperdiet nisl ultricies eleifend. Nulla quis rhoncus risus. Ut vel vehicula urna.</p>
+	    <!-- Heading -->
+      <h1>Let's Create beautiful responsive websites</h1>
+	    <!-- Introduction Paragraph -->
+      <p> Whether you're looking to launch a new website or revamp an existing one, I am here to help you achieve your goals.
+	Let's collaborate to create a digital presence that stands out and drives success for your business..</p>
     </div>
   </div>
 </section>
-<!--About-->
+	
+<!--About Us Section-->
 <section id="aboutUs">
+	<!--Container Element -->
   <div class="container">
+	<!--Row Container-->
     <div class="row"> 
-      <!-- item -->
-      <div class="col-md-4 tileBox"> <img src="images/photo-1.jpg" alt="me"/> </div>
+      <!-- Profile Image -->
+      <div class="col-md-4 tileBox"> 
+	      <img src="images/photo-1.jpg" alt="me"/> 
+      </div>
+
+      <!--About Me Text--> 
       <div class="col-md-8 tileBox">
+	<!-- Header Section-->
         <div class="txtHead">
           <h2>Hello, I am Sam Doe...</h2>
           <h3> Web UI/UX Designer/Front End Developer Based in NewYork, US.</h3>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitendisse interdum erat et neque tincidunt volutpat. Cras eget. Suspendisse interdum erat et neque tincidunt volutpat. <br/>
-          <br/>
-          Cras eget augue id dui varius pretium.
-          Consectetur adipiscing elit. Suspendisse interdum erat et neque tincidunt volutpat. Cras eget augue id dui varius.</p>
+	<!-- About Me Paragraph -->
+        <p>
+	With a keen eye for design and a passion for user experience, 
+	I specialize in crafting websites that not only look stunning but also provide a seamless and intuitive user experience. 
+	My approach is to blend creativity with the latest technologies, ensuring that every project I work on is both visually appealing and functionally robust.
+	<br>
+	I have experience in front-end development, utilizing HTML, CSS, and JavaScript to bring designs to life. 
+	My skills in UX/UI design ensure that every element on the page serves a purpose and enhances the overall user journey. 
+	I am dedicated to delivering high-quality work that meets and exceeds client expectations.
+	</p>
       </div>
       <!-- end: --> 
     </div>
