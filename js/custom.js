@@ -145,7 +145,7 @@ $('document').ready(function () {
 			textSize: 54,
 			textColor: '#1a1a1a'
 		});
-		$(window).load(function() { 
+		$(document).ready(function() { 
 			  $('#filter .current').trigger('click');
 		});
 });
